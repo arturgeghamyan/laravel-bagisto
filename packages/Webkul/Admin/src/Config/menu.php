@@ -348,4 +348,15 @@ return [
         'sort'       => 9,
         'icon'       => 'icon-configuration',
     ],
+
+    /**
+     * Google.
+     */
+    [
+        'key'        => 'google',
+        'name'       => 'admin::app.components.layouts.sidebar.google',
+        'route'      => 'admin.google.index',
+        'sort'       => 9,
+        'icon'       => '',
+    ],
 ];

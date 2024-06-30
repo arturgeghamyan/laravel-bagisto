@@ -4067,6 +4067,7 @@ return [
                 'collapse'                 => 'Collapse',
                 'communications'           => 'Communications',
                 'configure'                => 'Configure',
+                'google'                   => 'Google API',
                 'currencies'               => 'Currencies',
                 'customers'                => 'Customers',
                 'dashboard'                => 'Dashboard',

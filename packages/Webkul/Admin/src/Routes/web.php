@@ -46,6 +46,11 @@ require 'settings-routes.php';
 require 'configuration-routes.php';
 
 /**
+ * Google routes.
+ */
+require 'google-routes.php';
+
+/**
  * Notification routes.
  */
 require 'notification-routes.php';
