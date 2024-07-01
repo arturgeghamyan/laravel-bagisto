@@ -12,11 +12,5 @@ Route::group(['middleware' => ['admin'], 'prefix' => config('app.admin_url')], f
     Route::controller(GoogleController::class)->prefix('google/{slug?}/{slug2?}')->group(function () {
 
         Route::get('', 'index')->name('admin.google.index');
-
-        Route::post('', 'store')->name('admin.google.store');
-
-        Route::get('{path}', 'download')->defaults('_config', [
-            'redirect' => 'admin.google.index',
-        ])->name('admin.google.download');
     });
 });
